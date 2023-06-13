@@ -1,7 +1,0 @@
-com\selenium\driver\DriverFactory.class
-com\selenium\page\WikiResultadoPage.class
-com\selenium\driver\DriverFactory$browsers.class
-com\selenium\driver\DriverFactory$1.class
-com\selenium\MetodosUtiles\Utiles.class
-com\selenium\Test\TestCaseWiki2.class
-com\selenium\page\WikiHomePage.class
