@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Abro browser]]>
+    </line>
+    <line>
+      <![CDATA[Localizar y comprobar que la caja de busqueda se muestra]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar la palabra TDD]]>
+    </line>
+    <line>
+      <![CDATA[Presionar Enter]]>
+    </line>
+    <line>
+      <![CDATA[Validar que el título sea Desarrollo guiado por pruebas]]>
+    </line>
+    <line>
+      <![CDATA[Valida que el título sea TDD]]>
+    </line>
+    <line>
+      <![CDATA[Localizar y comprobar que el titulo este disponible]]>
+    </line>
+    <line>
+      <![CDATA[Cerrar Browser]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando el browser]]>
+    </line>
+    <line>
+      <![CDATA[Abro browser]]>
+    </line>
+    <line>
+      <![CDATA[Localizar y comprobar que la caja de busqueda se muestra]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar la palabra JAVA]]>
+    </line>
+    <line>
+      <![CDATA[Presionar Enter]]>
+    </line>
+    <line>
+      <![CDATA[Validar que el título sea Java (lenguaje de programación)]]>
+    </line>
+    <line>
+      <![CDATA[Valida que el título sea JAVA]]>
+    </line>
+    <line>
+      <![CDATA[Localizar y comprobar que el titulo este disponible]]>
+    </line>
+    <line>
+      <![CDATA[Cerrar Browser]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando el browser]]>
+    </line>
+    <line>
+      <![CDATA[Abro browser]]>
+    </line>
+    <line>
+      <![CDATA[Localizar y comprobar que la caja de busqueda se muestra]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar la palabra DATA DRIVEN TESTING]]>
+    </line>
+    <line>
+      <![CDATA[Presionar Enter]]>
+    </line>
+    <line>
+      <![CDATA[Validar que el título sea Data-driven testing]]>
+    </line>
+    <line>
+      <![CDATA[Valida que el título sea DATA DRIVEN TESTING]]>
+    </line>
+    <line>
+      <![CDATA[Localizar y comprobar que el titulo este disponible]]>
+    </line>
+    <line>
+      <![CDATA[Cerrar Browser]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando el browser]]>
+    </line>
+    <line>
+      <![CDATA[Abro browser]]>
+    </line>
+    <line>
+      <![CDATA[Localizar y comprobar que la caja de busqueda se muestra]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar la palabra Selenium]]>
+    </line>
+    <line>
+      <![CDATA[Presionar Enter]]>
+    </line>
+    <line>
+      <![CDATA[Validar que el título sea Selenium]]>
+    </line>
+    <line>
+      <![CDATA[Valida que el título sea Selenium]]>
+    </line>
+    <line>
+      <![CDATA[Localizar y comprobar que el titulo este disponible]]>
+    </line>
+    <line>
+      <![CDATA[Cerrar Browser]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando el browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-11T11:08:10 ART" name="Suite" finished-at="2023-06-11T11:08:42 ART" duration-ms="32586">
+    <groups>
+    </groups>
+    <test started-at="2023-06-11T11:08:10 ART" name="Test" finished-at="2023-06-11T11:08:42 ART" duration-ms="32586">
+      <class name="com.selenium.Test.TestCaseWiki2">
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.Test.TestCaseWiki2@59d016c9]" started-at="2023-06-11T11:08:10 ART" name="abrirBrowser" finished-at="2023-06-11T11:08:14 ART" duration-ms="4181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61f80d55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abro browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="validarCarTextNuevo(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.Test.TestCaseWiki2@59d016c9]" started-at="2023-06-11T11:08:14 ART" name="validarCarTextNuevo" description="validar y verificar que Wikipedia HomePage contine el campo búsqueda" data-provider="datos" finished-at="2023-06-11T11:08:18 ART" duration-ms="4648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TDD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Desarrollo guiado por pruebas]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Localizar y comprobar que la caja de busqueda se muestra]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar la palabra TDD]]>
+            </line>
+            <line>
+              <![CDATA[Presionar Enter]]>
+            </line>
+            <line>
+              <![CDATA[Validar que el título sea Desarrollo guiado por pruebas]]>
+            </line>
+            <line>
+              <![CDATA[Valida que el título sea TDD]]>
+            </line>
+            <line>
+              <![CDATA[Localizar y comprobar que el titulo este disponible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validarCarTextNuevo -->
+        <test-method is-config="true" signature="cerrarBrowser()[pri:0, instance:com.selenium.Test.TestCaseWiki2@59d016c9]" started-at="2023-06-11T11:08:18 ART" name="cerrarBrowser" finished-at="2023-06-11T11:08:19 ART" duration-ms="365" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrar Browser]]>
+            </line>
+            <line>
+              <![CDATA[Cerrando el browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cerrarBrowser -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.Test.TestCaseWiki2@59d016c9]" started-at="2023-06-11T11:08:19 ART" name="abrirBrowser" finished-at="2023-06-11T11:08:22 ART" duration-ms="2743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61f80d55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abro browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="validarCarTextNuevo(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.Test.TestCaseWiki2@59d016c9]" started-at="2023-06-11T11:08:22 ART" name="validarCarTextNuevo" description="validar y verificar que Wikipedia HomePage contine el campo búsqueda" data-provider="datos" finished-at="2023-06-11T11:08:26 ART" duration-ms="4629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JAVA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Java (lenguaje de programación)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Localizar y comprobar que la caja de busqueda se muestra]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar la palabra JAVA]]>
+            </line>
+            <line>
+              <![CDATA[Presionar Enter]]>
+            </line>
+            <line>
+              <![CDATA[Validar que el título sea Java (lenguaje de programación)]]>
+            </line>
+            <line>
+              <![CDATA[Valida que el título sea JAVA]]>
+            </line>
+            <line>
+              <![CDATA[Localizar y comprobar que el titulo este disponible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validarCarTextNuevo -->
+        <test-method is-config="true" signature="cerrarBrowser()[pri:0, instance:com.selenium.Test.TestCaseWiki2@59d016c9]" started-at="2023-06-11T11:08:26 ART" name="cerrarBrowser" finished-at="2023-06-11T11:08:26 ART" duration-ms="349" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrar Browser]]>
+            </line>
+            <line>
+              <![CDATA[Cerrando el browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cerrarBrowser -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.Test.TestCaseWiki2@59d016c9]" started-at="2023-06-11T11:08:26 ART" name="abrirBrowser" finished-at="2023-06-11T11:08:29 ART" duration-ms="2599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61f80d55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abro browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="validarCarTextNuevo(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.Test.TestCaseWiki2@59d016c9]" started-at="2023-06-11T11:08:29 ART" name="validarCarTextNuevo" description="validar y verificar que Wikipedia HomePage contine el campo búsqueda" data-provider="datos" finished-at="2023-06-11T11:08:34 ART" duration-ms="4998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DATA DRIVEN TESTING]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Data-driven testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Localizar y comprobar que la caja de busqueda se muestra]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar la palabra DATA DRIVEN TESTING]]>
+            </line>
+            <line>
+              <![CDATA[Presionar Enter]]>
+            </line>
+            <line>
+              <![CDATA[Validar que el título sea Data-driven testing]]>
+            </line>
+            <line>
+              <![CDATA[Valida que el título sea DATA DRIVEN TESTING]]>
+            </line>
+            <line>
+              <![CDATA[Localizar y comprobar que el titulo este disponible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validarCarTextNuevo -->
+        <test-method is-config="true" signature="cerrarBrowser()[pri:0, instance:com.selenium.Test.TestCaseWiki2@59d016c9]" started-at="2023-06-11T11:08:34 ART" name="cerrarBrowser" finished-at="2023-06-11T11:08:34 ART" duration-ms="313" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrar Browser]]>
+            </line>
+            <line>
+              <![CDATA[Cerrando el browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cerrarBrowser -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.Test.TestCaseWiki2@59d016c9]" started-at="2023-06-11T11:08:34 ART" name="abrirBrowser" finished-at="2023-06-11T11:08:37 ART" duration-ms="2650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61f80d55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abro browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="validarCarTextNuevo(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.Test.TestCaseWiki2@59d016c9]" started-at="2023-06-11T11:08:37 ART" name="validarCarTextNuevo" description="validar y verificar que Wikipedia HomePage contine el campo búsqueda" data-provider="datos" finished-at="2023-06-11T11:08:42 ART" duration-ms="4716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Localizar y comprobar que la caja de busqueda se muestra]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar la palabra Selenium]]>
+            </line>
+            <line>
+              <![CDATA[Presionar Enter]]>
+            </line>
+            <line>
+              <![CDATA[Validar que el título sea Selenium]]>
+            </line>
+            <line>
+              <![CDATA[Valida que el título sea Selenium]]>
+            </line>
+            <line>
+              <![CDATA[Localizar y comprobar que el titulo este disponible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validarCarTextNuevo -->
+        <test-method is-config="true" signature="cerrarBrowser()[pri:0, instance:com.selenium.Test.TestCaseWiki2@59d016c9]" started-at="2023-06-11T11:08:42 ART" name="cerrarBrowser" finished-at="2023-06-11T11:08:42 ART" duration-ms="328" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrar Browser]]>
+            </line>
+            <line>
+              <![CDATA[Cerrando el browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cerrarBrowser -->
+      </class> <!-- com.selenium.Test.TestCaseWiki2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
