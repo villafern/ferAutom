@@ -1,0 +1,20 @@
+<suite name="Suite" thread-count="2" parallel="classes">
+	<test name="Ejecutar Test Edge"> 
+	 <parameter name="NombreNavegador" value="EDGE" />
+	<parameter name="url" value="https://www.wikipedia.org/" />
+<!--	<test thread-count="5" name="Test">-->
+		<classes>
+			<class name="com.selenium.Test.TestCaseWiki" />
+		</classes>
+	</test>
+	<test name="Ejecutar Test Chrome"> 
+	 <parameter name="NombreNavegador" value="CHROME" />
+	<parameter name="url" value="https://www.wikipedia.org/" />
+<!--	<test thread-count="5" name="Test">-->
+		<classes>
+			<class name="com.selenium.Test.TestCaseWiki" />
+		</classes>
+	</test>
+</suite> <!--
+Suite -->
+
